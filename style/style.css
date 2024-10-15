@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    height: 100vh;
+}
+.container{
+    gap: 19rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px
+}
+img{
+    height: 550px;
+}
+.flex-item{
+    display: flex;
+
+}
+.d{
+    border-radius: 34px;
+    transform: rotate(-5deg);  
+    border: solid rgb(255, 4, 222) 4px;
+}
+.K{
+    position: absolute;
+    top: 8REM;
+    margin-left: 10rem;
+    transform: rotate(15deg);
+    border-radius: 34px;
+    border: solid rgb(255, 4, 222) 4px;
+}
+.l{
+    height: 70px;
+}
+.item{
+    height: 600px;
+    width: 320px;
+}
+.froms{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+#text{
+    height: 45px;
+    outline: none;
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: solid 1px #7c7c7c;
+}
+#password{
+    height: 45px;
+    outline: none;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: solid 1px #7c7c7c;
+}
+.btn{
+    height: 40px;
+    outline: none;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 18px;
+    background: rgb(17, 212, 230);
+    border-radius: 5px;
+    color: #fff;
+    border: solid 1px #00d0ff;
+}
+.kkk{
+    height: 1.5px;
+    width: 130px;
+    background: #b8b1b1;
+}
+.hero{
+    gap: 40px;
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.like{
+    color: #494949;
+    font-size: 18px;
+}
+.text-l{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 40px;
+}
+.img-a{
+    height: 40px;
+}
+.tero{
+    text-align: center;
+    margin-top: 70px;
+}
+.ism{
+    gap: 10px;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.text-r{
+    font-size: 16px;
+    color: #7c7c7c;
+    text-align: center;
+    padding: 90px 100px;
+}
